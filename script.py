@@ -19,4 +19,3 @@ for i in range(len(df['Semestre de Ingresso'])):
 
 df['Tempo Atraso'] =  pd.Series(series)
 
-df.to_csv('Teste.csv')
